@@ -138,16 +138,16 @@ def main():
         st.header("Examples")
         a=st.toggle("Biking")
         if a:
-            st.image('Biking.jpg', caption='Biking')
+            st.write('Biking is a versatile activity that serves as both an eco-friendly mode of transportation and a form of recreational exercise. It promotes physical health and community engagement through various cycling events and group rides.')
         b=st.toggle("Diving")
         if b:
-            st.image('Diving.jpg', caption='Diving')
+            st.write('Diving is an adventurous activity that explores underwater environments, ranging from shallow reefs to deep-sea waters. It offers a unique opportunity to observe marine life and submerged landscapes up close.')
         c=st.toggle("Golf Swing")
         if c:
-            st.image('Golf.jpg', caption='Golf Swing')
+            st.write('Golf is a precision sport where players use clubs to hit balls into a series of holes on a course in as few strokes as possible. It combines skill and strategy, offering a serene yet challenging experience across beautifully landscaped terrains.')
         d=st.toggle("Pizza Tossing")
         if d:
-            st.image('Pizza.jpg', caption='Pizza Tossing')
+            st.write('Pizza tossing is a skillful technique used by chefs to stretch and aerate pizza dough, creating a thin, even base without tearing. This dramatic method not only helps achieve the perfect crust but also adds an entertaining visual element to the pizza-making process.')
 
     add_selectbox = st.sidebar.selectbox("How would you like to upload a video?", ("YouTube URL", "Local Device", "Live Camera"))
     if add_selectbox == "YouTube URL":
