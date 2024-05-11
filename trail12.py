@@ -138,16 +138,16 @@ def main():
         st.header("Examples")
         a=st.toggle("Biking")
         if a:
-            st.image('C:/Users/veeri/Downloads/Biking.jpg', caption='Biking')
+            st.image('Biking.jpg', caption='Biking')
         b=st.toggle("Diving")
         if b:
-            st.image('C:/Users/veeri/Downloads/Diving.jpg', caption='Diving')
+            st.image('Diving.jpg', caption='Diving')
         c=st.toggle("Golf Swing")
         if c:
-            st.image('C:/Users/veeri/Downloads/Golf.jpg', caption='Golf Swing')
+            st.image('Golf.jpg', caption='Golf Swing')
         d=st.toggle("Pizza Tossing")
         if d:
-            st.image('C:/Users/veeri/Downloads/Pizza.jpg', caption='Pizza Tossing')
+            st.image('Pizza.jpg', caption='Pizza Tossing')
 
     add_selectbox = st.sidebar.selectbox("How would you like to upload a video?", ("YouTube URL", "Local Device", "Live Camera"))
     if add_selectbox == "YouTube URL":
